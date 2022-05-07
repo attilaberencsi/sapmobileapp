@@ -1,0 +1,8 @@
+{
+    "Message": "Upload in progress...",
+    "CompletionMessage": "Upload Successful",
+    "CompletionTimeout": 7,
+    "OnSuccess": "/MyApp/Actions/Service/UploadOffline.action",
+    "OnFailure": "/MyApp/Actions/Service/SyncFailureMessage.action",
+    "_Type": "Action.Type.ProgressBanner"
+}
